@@ -51,3 +51,39 @@ button {
   cursor: pointer;
   transition: background 0.15s;
 }
+
+button:hover {
+  background: #444;
+}
+
+button:active {
+  background: #555;
+}
+
+.op {
+  background: #e8862b;
+}
+
+.op:hover {
+  background: #f0973f;
+}
+
+.equals {
+  background: #2b8ae8;
+}
+
+.equals:hover {
+  background: #3f97f0;
+}
+
+.clear {
+  background: #c0392b;
+}
+
+.clear:hover {
+  background: #d3493a;
+}
+
+.zero {
+  flex: 2;
+}
